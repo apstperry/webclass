@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    
+    <div is="page" id="home" data-role="page" style="background:-webkit-linear-gradient(rgb(8, 8, 8),rgb(8, 8, 0))">
+        <div is="header" data-role="header" data-position="fixed" data-theme="b">
+            <h3>Rank</h3>
+            <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-home ui-btn-icon-notext ui-corner-all" data-transition="slide" href="index.html" rel="external">Back</a>
+        </div>
+        <div is="content" role="main" class="ui-content">
+            <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(#66f,#33a); color:#fff;">Rank List</li>
+            </ul>
+            <ul is="listview" data-role="listview" data-inset="true" id="hero_list" style="margin:0;">
+                <li is="listview-li">
+                    <a href="#Content1" data-transition="slide">為什麼你的退休金只有別人的一半？</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content2" data-transition="flip">比句點更悲傷</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content3" data-transition="slideup">蔡康永的情商課2：因為這是你的人生</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content4" data-transition="slidedown">蝴蝶朵朵</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content5" data-transition="pop">原子習慣：細微改變帶來巨大成就的實證法則</a>
+                </li>
+            </ul>
+        </div>
+    </div>    
+    
+    <!-- 為什麼你的退休金只有別人的一半？ Page: Content  -->
+    <div id="Content1" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>商品檢視</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">為什麼你的退休金只有別人的一半？</div>
+            <div><img src="images/book01.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 比句點更悲傷 Page: Content  -->
+    <div id="Content2" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>商品檢視</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">比句點更悲傷</div>
+            <div><img src="images/book02.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 蔡康永的情商課2：因為這是你的人生 Page: Content  -->
+    <div id="Content3" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>商品檢視</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">蔡康永的情商課2：因為這是你的人生</div>
+            <div><img src="images/book03.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 蝴蝶朵朵 Page: Content  -->
+    <div id="Content4" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>商品檢視</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">蝴蝶朵朵</div>
+            <div><img src="images/book04.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 原子習慣：細微改變帶來巨大成就的實證法則 Page: Content  -->
+    <div id="Content5" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>商品檢視</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">原子習慣：細微改變帶來巨大成就的實證法則</div>
+            <div><img src="images/book05.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+</body>
+</html>

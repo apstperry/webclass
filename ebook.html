@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    
+    <div is="page" id="home" data-role="page" style="background:-webkit-linear-gradient(rgb(8, 8, 8),rgb(8, 8, 0))">
+        <div is="header" data-role="header" data-position="fixed" data-theme="b">
+            <h3>Rank</h3>
+            <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-home ui-btn-icon-notext ui-corner-all" data-transition="slide" href="index.html" rel="external">Back</a>
+        </div>
+        <div is="content" role="main" class="ui-content">
+            <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(#66f,#33a); color:#fff;">Rank List</li>
+            </ul>
+            <ul is="listview" data-role="listview" data-inset="true" id="hero_list" style="margin:0;">
+                <li is="listview-li">
+                    <a href="#Content1" data-transition="slide">2062：人工智慧創造的世界</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content2" data-transition="flip">成功竟然有公式：大數據科學揭露成功的祕訣</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content3" data-transition="slideup">財富背後的法律密碼：法律如何創造財富與不平等</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content4" data-transition="slidedown">夏之門</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content5" data-transition="pop">符紙婆婆詭語怪談1</a>
+                </li>
+            </ul>
+        </div>
+    </div>    
+    
+    <!-- 2062：人工智慧創造的世界 Page: Content  -->
+    <div id="Content1" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>商品檢視</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">2062：人工智慧創造的世界</div>
+            <div><img src="images/book06.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 成功竟然有公式：大數據科學揭露成功的祕訣 Page: Content  -->
+    <div id="Content2" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>商品檢視</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">成功竟然有公式：大數據科學揭露成功的祕訣</div>
+            <div><img src="images/book07.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 財富背後的法律密碼：法律如何創造財富與不平等 Page: Content  -->
+    <div id="Content3" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>商品檢視</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">財富背後的法律密碼：法律如何創造財富與不平等</div>
+            <div><img src="images/book08.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 夏之門 Page: Content  -->
+    <div id="Content4" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>商品檢視</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">夏之門</div>
+            <div><img src="images/book09.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 符紙婆婆詭語怪談1 Page: Content  -->
+    <div id="Content5" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>商品檢視</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">符紙婆婆詭語怪談1</div>
+            <div><img src="images/book10.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
